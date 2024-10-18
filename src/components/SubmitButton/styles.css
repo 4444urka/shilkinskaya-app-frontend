@@ -1,0 +1,23 @@
+.submitButton {
+    background-color: var(--main-color);
+   
+    width: 100px;
+    height: 25px;
+
+
+    border: none;
+    border-radius: 7px;
+    outline: none;
+
+    color: white;
+    font-weight: bold;
+}
+
+.submitButton:hover {
+    transition: all 0.3s ease-in-out;
+    opacity: 70%;
+}
+
+/* .submitButton:focus {
+    
+} */

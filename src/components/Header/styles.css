@@ -9,6 +9,7 @@
     height: 60px;
 
     display: flex;
-    padding: 0 15px;
+    padding: 0 25vw;
     align-items: center;
+    margin-bottom: 10px;
 }

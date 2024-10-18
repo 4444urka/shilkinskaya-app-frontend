@@ -4,7 +4,9 @@
     height: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: var(--main-color);
+    background-color: white;
+    border-radius: 0 7px;
+    padding: 0 30vw;
   }
   
   .navbarElement {
@@ -13,13 +15,12 @@
   
   .navbarElement a {
     display: block;
-    color: white;
     text-align: center;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   .navbarElement a:hover {
     transition: all 0.3s ease-in-out;
-    background-color: white;
   }

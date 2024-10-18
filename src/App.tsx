@@ -9,21 +9,14 @@ import NavBar from './components/NavBar/NavBar'
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header>Шилкинская 15</Header>
-      <NavBar>
-        <a href=''>Pizda</a>
-        <a href=''>Pizda</a>
-        <a href=''>Pizda</a>
-        <a href=''>Pizda</a>
-      </NavBar>
       <Routes>li
         <Route path="/" element=<Homepage /> />
         <Route path="/login" element=<Login /> />
         <Route path="/register" element=<Register /> />
       </Routes>
-      
-    </div>
+    </>
   )
 }
 

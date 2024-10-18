@@ -5,6 +5,8 @@ interface NavBarProps {
   children: React.ReactNode;
 }
 
+// Панель навигации
+// TODO: Придумать как стилизовать
 const NavBar: React.FC<NavBarProps> = ({ children }) => {
   const childrenArray = React.Children.toArray(children);
 

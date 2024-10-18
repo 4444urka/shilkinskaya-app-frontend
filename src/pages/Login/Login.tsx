@@ -1,8 +1,13 @@
 import React from 'react'
+import FormInput from '../../components/FormInput/FormInput'
+import "./styles.css";
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <form className='loginForm'>
+      <FormInput label='username: '/>
+      <FormInput label='password: '/>
+    </form>
   )
 }
 

@@ -1,0 +1,10 @@
+.formInput {
+  border: solid 1px black;
+  border-radius: 5px;
+}
+
+.formInput:focus {
+  transition: all 0.2s ease-in-out;
+  border-color: var(--main-color);
+  outline: none;
+}

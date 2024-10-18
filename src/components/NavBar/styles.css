@@ -1,0 +1,25 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    height: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--main-color);
+  }
+  
+  .navbarElement {
+    float: left;
+  }
+  
+  .navbarElement a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbarElement a:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
